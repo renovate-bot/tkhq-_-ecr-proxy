@@ -31,7 +31,7 @@ jobs:
           - 1.27.0
       fail-fast: false
     steps:
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5.0.0
         with:
           name: manifests-kustomize
       - uses: docker://ghcr.io/yannh/kubeconform:v0.6.2@sha256:d49b233175b55c18d9a2af5e0b62249c3bc3bdd6161126655b4ad585c4b9b064
