@@ -34,7 +34,7 @@ jobs:
       - uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           name: manifests-kustomize
-      - uses: docker://ghcr.io/yannh/kubeconform:v0.6.2@sha256:d49b233175b55c18d9a2af5e0b62249c3bc3bdd6161126655b4ad585c4b9b064
+      - uses: docker://ghcr.io/yannh/kubeconform:v0.8.0@sha256:faffaf43f95aa6425306e1ab8d6fcad72acb9049158f38e574c085ea1ec0f64e
         with:
           entrypoint: '/kubeconform'
           args: >-
